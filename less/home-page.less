@@ -90,6 +90,13 @@
           .custom-btn(100%, 60px, @btn-bg-color, 5px);
           padding: 20px;
           margin: 20px 0 0 0;
+          .keyframes(fade-in;{
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+            });
+        
+          .animation(fade-in 1s linear infinite alternate)
+      
         }
       }
     }
