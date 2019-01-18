@@ -36,11 +36,19 @@ Edit this document to include your answers after each question. Make sure to lea
 
 2. Describe what it means to be mobile first vs desktop first.
 
+Mobile first means that you start with a mobile design and build out larger designs from there with media queries. You would typically use a desktop design to start with and work towards the mobile since there is more content on a desktop design.
+
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+
+font-size: 62% sets each rem to 10px. This helps us keep better track of sizing when working in rems.
 
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing is a tool that allows you to generate css from the preprocessor's syntax. Preprocessors have exta features that you don't have when using regular CSS like Mixins, variable, etc.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite concept in preprocessing is mixins. I like having one line that I can use over and over for really complicated designs. A concept that gives me some trouble is nesting media queries. I did well wiith just mobile, but had some glitchy stttuff going on when I tried to implement a tablet design. I think it will all come together with practice.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
