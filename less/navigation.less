@@ -8,6 +8,10 @@
   border: 1px solid @sea-shell;
   .custom-flex(space-around, center);
   flex-direction: column;
+  @media @phone {
+      margin: 0 auto;
+      width: 100%;
+  }
   h1 {
       font-size: 4rem;
       padding: 20px;
@@ -20,7 +24,9 @@
       text-decoration: none;
       font-size: 1.6rem;
       color: @main-font-color;
-  }
+      @media @phone {  
+          padding: 10px;
+    }
+    }
 }
-
 
