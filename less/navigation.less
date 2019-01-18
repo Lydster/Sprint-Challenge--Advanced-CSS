@@ -1,1 +1,26 @@
 // Navigation code here
+
+.navigation {
+  width: 100%;
+  margin: 0 auto;
+  background-color: @nav-bg;
+  font-family: @river-bend;
+  border: 1px solid @sea-shell;
+  .custom-flex(space-around, center);
+  flex-direction: column;
+  h1 {
+      font-size: 4rem;
+      padding: 20px;
+  }
+  div {
+      padding-bottom: 10px;
+  }
+  a {
+      padding: 20px;
+      text-decoration: none;
+      font-size: 1.6rem;
+      color: @main-font-color;
+  }
+}
+
+

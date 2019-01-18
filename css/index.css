@@ -159,7 +159,30 @@ p {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
-  background: red;
+}
+.navigation {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #F6F6F6;
+  font-family: #454A59;
+  border: 1px solid #F1F1F1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.navigation h1 {
+  font-size: 4rem;
+  padding: 20px;
+}
+.navigation div {
+  padding-bottom: 10px;
+}
+.navigation a {
+  padding: 20px;
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #5E6164;
 }
 footer {
   color: #22283B;
