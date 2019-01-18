@@ -247,6 +247,10 @@ footer {
   padding: 10px;
   cursor: pointer;
 }
+.home .walk .walk-text .btn:hover {
+  background: #5E6164;
+  color: black;
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
